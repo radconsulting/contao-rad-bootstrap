@@ -25,13 +25,14 @@
  * @license    http://opensource.org/licenses/lgpl-3.0.html
  */
 $templatesFolder = version_compare(VERSION, '4.0', '>=') ? 'vendor/radconsulting/rad-bootstrap/templates/' : 'system/modules/rad-bootstrap/templates/';
+$sourcesFolder = version_compare(VERSION, '4.0', '>=') ? 'vendor/radconsulting/rad-bootstrap/src/' : 'system/modules/rad-bootstrap/src/';
 
 ClassLoader::addClasses(array(
     // Modules
     // Elements
-    'RadConsulting\\Contao\\Element\\ColumnElement' => 'system/modules/rad-elements/src/RadConsulting/Contao/Element/ColumnElement.php',
+    'RadConsulting\\Contao\\Element\\ColumnElement' => $sourcesFolder . 'RadConsulting/Contao/Element/ColumnElement.php',
     // Widgets
-    'RadConsulting\\Contao\\Widget\\ColumnWidget' => 'system/modules/rad-elements/src/RadConsulting/Contao/Widget/ColumnWidget.php',
+    'RadConsulting\\Contao\\Widget\\ColumnWidget' => $sourcesFolder . 'RadConsulting/Contao/Widget/ColumnWidget.php',
 ));
 
 TemplateLoader::addFiles(array(
