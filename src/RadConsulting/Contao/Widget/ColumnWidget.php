@@ -34,6 +34,11 @@ use Contao\Widget;
 class ColumnWidget extends Widget
 {
     /**
+     * @var string
+     */
+    protected $strTemplate = 'be_widget';
+
+    /**
      * @return string
      */
     public function generate()
