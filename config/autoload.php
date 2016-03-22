@@ -29,7 +29,7 @@ $templatesFolder = version_compare(VERSION, '4.0', '>=') ? 'vendor/radconsulting
 ClassLoader::addClasses(array(
     // Modules
     // Elements
-    'RadConsulting\\Contao\\Element\\ElementColumn' => 'system/modules/rad-elements/src/RadConsulting/Contao/Element/ElementColumn.php',
+    'RadConsulting\\Contao\\Element\\ColumnElement' => 'system/modules/rad-elements/src/RadConsulting/Contao/Element/ColumnElement.php',
     // Widgets
     'RadConsulting\\Contao\\Widget\\ColumnWidget' => 'system/modules/rad-elements/src/RadConsulting/Contao/Widget/ColumnWidget.php',
 ));
