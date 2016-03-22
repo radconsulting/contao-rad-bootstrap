@@ -28,8 +28,8 @@
 $GLOBALS['BE_FFL']['radColumn'] = 'ColumnWidget';
 
 // Content elements
-$GLOBALS['TL_CTE']['rad_bootstrap_grid']['rad_column_start'] = 'RadConsulting\\Contao\\Element\\ElementColumn';
-$GLOBALS['TL_CTE']['rad_bootstrap_grid']['rad_column_stop'] = 'RadConsulting\\Contao\\Element\\ElementColumn';
+$GLOBALS['TL_CTE']['rad_bootstrap_grid']['rad_column_start'] = 'RadConsulting\\Contao\\Element\\ColumnElement';
+$GLOBALS['TL_CTE']['rad_bootstrap_grid']['rad_column_stop'] = 'RadConsulting\\Contao\\Element\\ColumnElement';
 
 // Wrapper elements
 $GLOBALS['TL_WRAPPERS']['start'][] = 'rad_column_start';
