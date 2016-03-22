@@ -38,6 +38,7 @@ class ColumnWidget extends Widget
      */
     public function generate()
     {
+        var_dump(__CLASS__);
         $html = '<div class="rad columnWidget">hallo';
 
         $html .= '<div>';
