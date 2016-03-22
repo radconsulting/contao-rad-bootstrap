@@ -25,7 +25,7 @@
  * @license    http://opensource.org/licenses/lgpl-3.0.html
  */
 // Callbacks
-$GLOBALS['TL_DCA']['tl_content']['config']['onsubmit_callback'][] = array('RadConsulting\\Contao\\Element\\ColumnElement', 'onSubmit');
+// $GLOBALS['TL_DCA']['tl_content']['config']['onsubmit_callback'][] = array('RadConsulting\\Contao\\Element\\ColumnElement', 'onSubmit');
 
 // Palettes
 $GLOBALS['TL_DCA']['tl_content']['palettes']['rad_column_start'] = '{type_legend},type,rad_column;{protected_legend:hide},protected;{expert_legend:hide},cssID,space';
