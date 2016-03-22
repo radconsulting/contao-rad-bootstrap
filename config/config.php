@@ -25,7 +25,7 @@
  * @license    http://opensource.org/licenses/lgpl-3.0.html
  */
 // Field types
-$GLOBALS['BE_FFL']['radColumn'] = 'ColumnWidget';
+$GLOBALS['BE_FFL']['radColumn'] = 'RadConsulting\\Contao\\Widget\\ColumnWidget';
 
 // Content elements
 $GLOBALS['TL_CTE']['rad_bootstrap_grid']['rad_column_start'] = 'RadConsulting\\Contao\\Element\\ColumnElement';

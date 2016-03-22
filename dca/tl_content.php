@@ -34,6 +34,6 @@ $GLOBALS['TL_DCA']['tl_content']['palettes']['rad_column_start'] = '{type_legend
 $GLOBALS['TL_DCA']['tl_content']['fields']['rad_column'] = array(
     'label' => 'meh',
     'default' => 0,
-    'inputType' => 'text',
+    'inputType' => 'radColumn',
     'sql' => "varchar(255) NOT NULL default ''"
 );
