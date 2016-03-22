@@ -43,11 +43,11 @@ class ColumnWidget extends Widget
      */
     public function generate()
     {
-        var_dump(__CLASS__);
-        $html = '<div class="rad columnWidget">hallo';
-
-        $html .= '<div>';
-
+        $html = '';
+        $html .= '<div class="rad columnWidget" data-id="size"><div>';
+        $html .= '<div class="rad columnWidget" data-id="offset"><div>';
+        $html .= '<div class="rad columnWidget" data-id="push"><div>';
+        $html .= '<div class="rad columnWidget" data-id="pull"><div>';
         return $html;
     }
 }
